@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: "Sofadi One", system-ui;
+}
+
+/* layout*/
+.contain-header{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.logo-text{
+    font-size: 40px;
+}
+
+.logo-img, .logo-text{
+    vertical-align: middle;
+}
+
+/* contain list */
+main{
+    background-color: aqua;
+    padding-top: 30px
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.button, .title-list{
+    padding: 20px 20px
+}
+
+.button-task, .button-section{
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px;
+    color: gray
+}
+
+.button-task{
+    background-color:dodgerblue;
+    color: white;
+}
+
+/* liste */
+.title-text{
+    font-size: 30px;
+    padding-left: 0;
+}
