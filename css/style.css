@@ -2,11 +2,16 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    line-height: 2em;
 }
 
-html{
-    font-family: "Sofadi One", system-ui;
+ul{
+    list-style: none;
 }
+
+/* html{
+    font-family: "Sofadi One", system-ui;
+} */
 
 /* layout*/
 .contain-header{
@@ -25,8 +30,8 @@ html{
 
 /* contain list */
 main{
-    background-color: aqua;
-    padding-top: 30px
+    background-color: rgb(240, 240, 240);
+    padding: 30px 30px;
 }
 .container{
     max-width: 800px;
@@ -35,7 +40,7 @@ main{
     border-radius: 10px;
 }
 
-.button, .title-list{
+.button, .list{
     padding: 20px 20px
 }
 
@@ -55,5 +60,51 @@ main{
 /* liste */
 .title-text{
     font-size: 30px;
-    padding-left: 0;
+    padding-left: 10px;
+}
+
+.text-list{
+    font-size: 20px;
+}
+
+.simb-check{
+    color: green;
+}
+
+.simb-cross{
+    color: red;
+}
+
+.color-text{
+    
+    font-size: 13px;
+    border-radius: 10px;
+    color: white;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+/* color right text */
+.editorial{
+    background-color: rgb(0, 153, 255);
+}
+
+.goals{
+    background-color: blueviolet;
+}
+
+.recruiting{
+    background-color: rgb(100, 177, 100);
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.website{
+    background-color: rgba(230, 80, 210, 0.774);
+}
+
+.sales{
+    background-color: rgb(93, 143, 18);
 }
